@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h1>Movie Finder</h1>
+        <div id="nav-links">
+            <button id="home-btn" type="button">Home</button>
+            <button id="trending-btn" type="button">Trending</button>
+            <button id="upcoming-btn" type="button">Upcoming</button>
+        </div>
+    </nav>
+
+    <section id="search-section">
+        <input 
+            id="search-input"
+            type="search"
+            placeholder="Search for a movie"
+        >
+
+        <button id="search-button" type="button">
+            Search
+        </button>
+    </section>
+
+    <section  id="search-results-section">
+    <h2>Search Results</h2>
+    <div id="movie-container"></div>
+   </section>
+
+    <section>
+        <h2>Trending Movies</h2>
+        <div id="trending-movies"></div>
+    </section>
+
+    <section>
+        <h2>Upcoming Movies</h2>
+        <div id="upcoming-movies"></div>
+    </section>
+
+    
+ <section id="movie-details">
+
+    <div id="movie-details-card">
+
+        <button id="close-details" type="button">✕ Close</button>
+
+        <div id="movie-details-content"></div>
+
+    </div>
+
+</section>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
